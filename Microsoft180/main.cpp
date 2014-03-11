@@ -4,6 +4,7 @@
 #include "designParttern/AbstractFactory/abstractFactory.h"
 #if __USE_OFFER_2_
 #include "offer100issues/issueNo2.h"
+#include "offer100issues/issueNo3.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -36,5 +37,9 @@ int main()
     mystack.pop();
     cout << "Min:" << mystack.min() << endl;
     #endif // __USE_OFFER_2_
+
+    int a[7] = {-4, 5, -6, 2, -4, 6, -3};
+    int maxSub = 0;
+    getMaxSub(a, 7, maxSub);
     return 0;
 }
