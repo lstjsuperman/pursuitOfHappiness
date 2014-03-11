@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1394540852 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
+	<iostream>
+	"config/config.h"
+	"designParttern/AbstractFactory/abstractProduct.h"
+	"designParttern/AbstractFactory/abstractFactory.h"
+
+1394540803 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.cpp
+	"abstractFactory.h"
+
+1394540727 d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.h
+	<vector>
+	"abstractProduct.h"
+
+1394540145 d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractproduct.h
+	<iostream>
+
+1394537541 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractproduct.cpp
+
+1394540859 d:\work\pursuitofhappiness\microsoft180\config\config.h
+
