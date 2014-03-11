@@ -1,9 +1,10 @@
 # depslib dependency file v1.0
-1394540852 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
+1394545752 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
 	<iostream>
 	"config/config.h"
 	"designParttern/AbstractFactory/abstractProduct.h"
 	"designParttern/AbstractFactory/abstractFactory.h"
+	"offer100issues/issueNo2.h"
 
 1394540803 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.cpp
 	"abstractFactory.h"
@@ -17,5 +18,12 @@
 
 1394537541 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractproduct.cpp
 
-1394540859 d:\work\pursuitofhappiness\microsoft180\config\config.h
+1394545645 d:\work\pursuitofhappiness\microsoft180\config\config.h
+	"offer_config.h"
+
+1394545232 d:\work\pursuitofhappiness\microsoft180\config\offer_config.h
+
+1394545778 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno2.h
+	<deque>
+	<cassert>
 
