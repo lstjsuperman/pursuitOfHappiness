@@ -5,6 +5,7 @@
 #if __USE_OFFER_2_
 #include "offer100issues/issueNo2.h"
 #include "offer100issues/issueNo3.h"
+#include "offer100issues/issueNo4_smallestK.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -37,6 +38,25 @@ int main()
     mystack.pop();
     cout << "Min:" << mystack.min() << endl;
     #endif // __USE_OFFER_2_
+
+    #if 1 //Issue No.4
+    vector<int> in_arr;
+    in_arr.push_back(46);
+    in_arr.push_back(38);
+    in_arr.push_back(26);
+    in_arr.push_back(73);
+    in_arr.push_back(17);
+    in_arr.push_back(12);
+    in_arr.push_back(34);
+
+    IntMaxHeap result_heap;
+    getSmallestK(in_arr, result_heap, 5);
+    for (IntMaxHeap::reverse_iterator it = result_heap.rbegin();
+        it != result_heap.rend();
+        it++) {
+        cout << *it << endl;
+    }
+    #endif // 1
 
     int a[7] = {-4, 5, -6, 2, -4, 6, -3};
     int maxSub = 0;
