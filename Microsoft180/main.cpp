@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdio>
+#include <cstring>
 #include "config/config.h"
 #include "designParttern/AbstractFactory/abstractProduct.h"
 #include "designParttern/AbstractFactory/abstractFactory.h"
@@ -6,6 +8,7 @@
 #include "offer100issues/issueNo2.h"
 #include "offer100issues/issueNo3.h"
 #include "offer100issues/issueNo4_smallestK.h"
+#include "offer100issues/issueNo5_reverseSentense.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -39,7 +42,7 @@ int main()
     cout << "Min:" << mystack.min() << endl;
     #endif // __USE_OFFER_2_
 
-    #if 1 //Issue No.4
+    #if 0 //Issue No.4
     vector<int> in_arr;
     in_arr.push_back(46);
     in_arr.push_back(38);
@@ -56,6 +59,15 @@ int main()
         it++) {
         cout << *it << endl;
     }
+    #endif // 1
+
+    #if 1 //Issue No.5
+    char* pSentense = new char(100);
+    memset(pSentense, 100, 0);
+    strncpy(pSentense, "I am a student", strlen("I am a student."));
+    reverseSentense(pSentense);
+    cout << pSentense << endl;
+    delete[] pSentense;
     #endif // 1
 
     int a[7] = {-4, 5, -6, 2, -4, 6, -3};

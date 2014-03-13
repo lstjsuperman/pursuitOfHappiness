@@ -26,7 +26,7 @@ bool getMaxSub(int *pArray, int length, int& maxSubSum) {
     maxSubSum = maxSum;
     cout << "Max sub start at " << start << " end at " << end << endl;
     cout << "Max sub is " << maxSum << endl;
-
+    return true;
 }
 
 #endif // __ISSUE_NO3__
