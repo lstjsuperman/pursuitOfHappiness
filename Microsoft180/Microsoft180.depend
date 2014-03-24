@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1394721941 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
+1395396063 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
 	<iostream>
 	<cstdio>
+	<cstring>
 	"config/config.h"
 	"designParttern/AbstractFactory/abstractProduct.h"
 	"designParttern/AbstractFactory/abstractFactory.h"
@@ -9,6 +10,8 @@
 	"offer100issues/issueNo3.h"
 	"offer100issues/issueNo4_smallestK.h"
 	"offer100issues/issueNo5_reverseSentense.h"
+	"offer100issues/issueNo26_getSecuenceSumN.h"
+	"offer100issues/issueNo27_getAllString.h"
 
 1394540803 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.cpp
 	"abstractFactory.h"
@@ -39,4 +42,10 @@
 	<iostream>
 
 1394722301 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno5_reversesentense.h
+
+1395389407 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno26_getsecuencesumn.h
+	<iostream>
+
+1395396142 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno27_getallstring.h
+	<iostream>
 

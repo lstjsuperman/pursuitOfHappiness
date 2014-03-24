@@ -9,6 +9,8 @@
 #include "offer100issues/issueNo3.h"
 #include "offer100issues/issueNo4_smallestK.h"
 #include "offer100issues/issueNo5_reverseSentense.h"
+#include "offer100issues/issueNo26_getSecuenceSumN.h"
+#include "offer100issues/issueNo27_getAllString.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -61,7 +63,7 @@ int main()
     }
     #endif // 1
 
-    #if 1 //Issue No.5
+    #if 0 //Issue No.5
     char* pSentense = new char(100);
     memset(pSentense, 100, 0);
     strncpy(pSentense, "I am a student", strlen("I am a student."));
@@ -70,8 +72,17 @@ int main()
     delete[] pSentense;
     #endif // 1
 
-    int a[7] = {-4, 5, -6, 2, -4, 6, -3};
-    int maxSub = 0;
-    getMaxSub(a, 7, maxSub);
+    #if 0 //Issue No.26
+    getSequenceSumN(15);
+    #endif // 1
+
+    #if 1 // Issue No.27
+    char* str = new char[10];
+    memset(str, 0, 10);
+    strncpy(str, "aac", 10);
+    printAllString(str, str );
+    delete[] str;
+    #endif // 1
+
     return 0;
 }
