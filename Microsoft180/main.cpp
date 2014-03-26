@@ -90,18 +90,5 @@ int main()
     printFrom1toN(3);
 #endif // 1
 
-    struct Point3D
-    {
-        int x;
-        int y;
-        int z;
-    };
-
-
-    Point3D* pPoint = NULL;
-    int offset = (int)(&pPoint->z);
-
-    printf("%d", offset);
-
     return 0;
 }
