@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1395626879 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
+1395920297 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
@@ -13,6 +13,8 @@
 	"offer100issues/issueNo26_getSecuenceSumN.h"
 	"offer100issues/issueNo27_getAllString.h"
 	"offer100issues/issueNo38_printNbitNumber.h"
+	"insideCppObjectModel/chap4_semantics_of_functions.h"
+	"offer100issues/issueNo100_Dynamic_Programming.h"
 
 1394540803 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.cpp
 	"abstractFactory.h"
@@ -51,4 +53,12 @@
 	<iostream>
 
 1395627063 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno38_printnbitnumber.h
+
+1395918884 d:\work\pursuitofhappiness\microsoft180\insidecppobjectmodel\chap4_semantics_of_functions.h
+	<iostream>
+	<algorithm>
+
+1395921696 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno100_dynamic_programming.h
+	<iostream>
+	<algorithm>
 

@@ -12,6 +12,9 @@
 #include "offer100issues/issueNo26_getSecuenceSumN.h"
 #include "offer100issues/issueNo27_getAllString.h"
 #include "offer100issues/issueNo38_printNbitNumber.h"
+#include "insideCppObjectModel/chap4_semantics_of_functions.h"
+#include "offer100issues/issueNo100_Dynamic_Programming.h"
+#include "deepInCpp/callParentMethod.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -89,6 +92,17 @@ int main()
 #if 0 //Issue No.38
     printFrom1toN(3);
 #endif // 1
+
+#if 1 // Call parent method
+
+Parent *ptr = new Child();
+ptr->getName();
+ptr->justPrint();
+
+#endif // 1
+
+    doSomething();
+    getMaxValue();
 
     return 0;
 }
