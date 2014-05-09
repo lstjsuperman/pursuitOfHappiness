@@ -15,6 +15,10 @@
 #include "insideCppObjectModel/chap4_semantics_of_functions.h"
 #include "offer100issues/issueNo100_Dynamic_Programming.h"
 #include "deepInCpp/callParentMethod.h"
+#include "offer100issues/issueNo5_getTheKSmallest.h"
+#include "offer100issues/issueNo6_judgeBinaryBackOutput.h"
+#include "offer100issues/issueNo7_reverseSentense.h"
+#include "offer100issues/issueNo13_firstOnlyOne.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -33,7 +37,7 @@ int main()
     delete factory;
 #endif // __USE_ABSTRACT_FACTORY__
 
-#if __USE_OFFER_2_
+#if 0 // No.2
     StackJ<int> mystack;
     mystack.push(16);
     mystack.push(13);
@@ -93,7 +97,7 @@ int main()
     printFrom1toN(3);
 #endif // 1
 
-#if 1 // Call parent method
+#if 0 // Call parent method
 
 Parent *ptr = new Child();
 ptr->getName();
@@ -101,8 +105,28 @@ ptr->justPrint();
 
 #endif // 1
 
+#if 0 // No.5
+    testGetKSmallest(3);
+#endif // 1
+
+#if 0 // No.6
+    testIsBinary();
+#endif // 1
+
+#if 0 // No.7
+    testReverseSentence();
+#endif // 1
+
+#if 0
     doSomething();
     getMaxValue();
+#endif //
+
+#if 1 //Issue No.13
+
+NO13::testFirstNotRepeatingChar();
+
+#endif // 1
 
     return 0;
 }

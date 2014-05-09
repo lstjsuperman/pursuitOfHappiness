@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1395920297 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
+1399605389 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
@@ -15,6 +15,11 @@
 	"offer100issues/issueNo38_printNbitNumber.h"
 	"insideCppObjectModel/chap4_semantics_of_functions.h"
 	"offer100issues/issueNo100_Dynamic_Programming.h"
+	"deepInCpp/callParentMethod.h"
+	"offer100issues/issueNo5_getTheKSmallest.h"
+	"offer100issues/issueNo6_judgeBinaryBackOutput.h"
+	"offer100issues/issueNo7_reverseSentense.h"
+	"offer100issues/issueNo13_firstOnlyOne.h"
 
 1394540803 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.cpp
 	"abstractFactory.h"
@@ -61,4 +66,16 @@
 1395921696 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno100_dynamic_programming.h
 	<iostream>
 	<algorithm>
+
+1397110938 d:\work\pursuitofhappiness\microsoft180\deepincpp\callparentmethod.h
+	<iostream>
+
+1398233800 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno5_gettheksmallest.h
+	<queue>
+
+1398320077 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno6_judgebinarybackoutput.h
+
+1398422834 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno7_reversesentense.h
+
+1399606236 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno13_firstonlyone.h
 

@@ -40,5 +40,4 @@ Node* parseNodeList(Node* pHead, bool asRight) {
 }
 
 
-
 #endif // __ISSUE_NO1__
