@@ -14,20 +14,21 @@ namespace NO13 {
 
         const char *pHashKey = pString;
         while(*pHashKey != '\0') {
-            hashTable[*(pHashKey++)] ++;
+            hashTable[(unsigned)*(pHashKey++)] ++;
         }
 
         pHashKey = pString;
         while(*pHashKey != '\0') {
-            if (hashTable[*pHashKey] == 1) {
+            if (hashTable[(unsigned)*pHashKey] == 1) {
                 return *pHashKey;
             }
             pHashKey++;
         }
+        return 0;
     }
 
     void testFirstNotRepeatingChar() {
-        char *testChars = "cefcfedeaa";
+        const char *testChars = "cefcfedeaa";
         char ret = FirstNotRepeatingChar(testChars);
         std:: cout << "Result is :" << ret << endl;
     }

@@ -19,6 +19,7 @@
 #include "offer100issues/issueNo6_judgeBinaryBackOutput.h"
 #include "offer100issues/issueNo7_reverseSentense.h"
 #include "offer100issues/issueNo13_firstOnlyOne.h"
+#include "offer100issues/issueNo17_StringToInt.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -122,10 +123,14 @@ ptr->justPrint();
     getMaxValue();
 #endif //
 
-#if 1 //Issue No.13
+#if 0 //Issue No.13
 
 NO13::testFirstNotRepeatingChar();
 
+#endif // 1
+
+#if 1 //Issue No.17
+    NO17::testParseStringToInt();
 #endif // 1
 
     return 0;

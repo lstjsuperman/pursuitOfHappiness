@@ -32,7 +32,31 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="config/config.h" />
+		<Unit filename="config/offer_config.h" />
+		<Unit filename="deepInCpp/callParentMethod.h" />
+		<Unit filename="designParttern/AbstractFactory/abstractFactory.cpp" />
+		<Unit filename="designParttern/AbstractFactory/abstractFactory.h" />
+		<Unit filename="designParttern/AbstractFactory/abstractProduct.cpp" />
+		<Unit filename="designParttern/AbstractFactory/abstractProduct.h" />
+		<Unit filename="designParttern/Builder/builder.h" />
+		<Unit filename="insideCppObjectModel/chap4_semantics_of_functions.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="offer100issues/issueNo1.h" />
+		<Unit filename="offer100issues/issueNo100_Dynamic_Programming.h" />
+		<Unit filename="offer100issues/issueNo12_hongxiangBTree.h" />
+		<Unit filename="offer100issues/issueNo13_firstOnlyOne.h" />
+		<Unit filename="offer100issues/issueNo2.h" />
+		<Unit filename="offer100issues/issueNo26_getSecuenceSumN.h" />
+		<Unit filename="offer100issues/issueNo27_getAllString.h" />
+		<Unit filename="offer100issues/issueNo3.h" />
+		<Unit filename="offer100issues/issueNo38_printNbitNumber.h" />
+		<Unit filename="offer100issues/issueNo4_smallestK.h" />
+		<Unit filename="offer100issues/issueNo5_getTheKSmallest.h" />
+		<Unit filename="offer100issues/issueNo5_reverseSentense.h" />
+		<Unit filename="offer100issues/issueNo6_judgeBinaryBackOutput.h" />
+		<Unit filename="offer100issues/issueNo7_reverseSentense.h" />
+		<Unit filename="offer100issues/issueNo9_KFromTheEnd.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

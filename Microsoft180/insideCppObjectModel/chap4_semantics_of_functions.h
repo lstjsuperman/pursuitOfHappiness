@@ -34,7 +34,7 @@ void HaveAStaticMember::setMember(int number) {
 }
 
 void doSomething() {
-    double (Point3D::*pmf)();
+    //double (Point3D::*pmf)();
     double (Point3D::*coord)() = &Point3D::x;
     coord = &Point3D::x;
     Point3D origin;
