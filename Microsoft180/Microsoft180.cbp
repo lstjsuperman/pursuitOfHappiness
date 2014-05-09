@@ -46,6 +46,8 @@
 		<Unit filename="offer100issues/issueNo100_Dynamic_Programming.h" />
 		<Unit filename="offer100issues/issueNo12_hongxiangBTree.h" />
 		<Unit filename="offer100issues/issueNo13_firstOnlyOne.h" />
+		<Unit filename="offer100issues/issueNo17_StringToInt.h" />
+		<Unit filename="offer100issues/issueNo18_TwoStackImplementQueue.h" />
 		<Unit filename="offer100issues/issueNo2.h" />
 		<Unit filename="offer100issues/issueNo26_getSecuenceSumN.h" />
 		<Unit filename="offer100issues/issueNo27_getAllString.h" />

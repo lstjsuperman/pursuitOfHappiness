@@ -20,6 +20,8 @@
 #include "offer100issues/issueNo7_reverseSentense.h"
 #include "offer100issues/issueNo13_firstOnlyOne.h"
 #include "offer100issues/issueNo17_StringToInt.h"
+#include "offer100issues/issueNo18_TwoStackImplementQueue.h"
+#include "offer100issues/issueNo19_reverseList.h"
 #endif // __USE_OFFER_2_
 
 using namespace std;
@@ -129,8 +131,12 @@ NO13::testFirstNotRepeatingChar();
 
 #endif // 1
 
-#if 1 //Issue No.17
+#if 0 //Issue No.17
     NO17::testParseStringToInt();
+#endif // 1
+    NO19::testReverseListNode();
+#if 1
+
 #endif // 1
 
     return 0;
