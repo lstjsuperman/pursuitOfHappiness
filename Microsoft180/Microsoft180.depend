@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1399628057 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
+1399879895 source:d:\work\pursuitofhappiness\microsoft180\main.cpp
 	<iostream>
 	<cstdio>
 	<cstring>
@@ -23,6 +23,9 @@
 	"offer100issues/issueNo17_StringToInt.h"
 	"offer100issues/issueNo18_TwoStackImplementQueue.h"
 	"offer100issues/issueNo19_reverseList.h"
+	"offer100issues/issueNo20_LongestCommonSub.h"
+	"offer100issues/issueNo25_calculate1times.h"
+	"offer100issues/issueNo26_FindContinuousSequence.h"
 
 1394540803 source:d:\work\pursuitofhappiness\microsoft180\designparttern\abstractfactory\abstractfactory.cpp
 	"abstractFactory.h"
@@ -88,6 +91,12 @@
 1399624683 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno18_twostackimplementqueue.h
 	<stack>
 
-1399629226 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno19_reverselist.h
+1399629237 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno19_reverselist.h
 	<string.h>
+
+1399865311 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno20_longestcommonsub.h
+
+1399876060 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno25_calculate1times.h
+
+1399880004 d:\work\pursuitofhappiness\microsoft180\offer100issues\issueno26_findcontinuoussequence.h
 

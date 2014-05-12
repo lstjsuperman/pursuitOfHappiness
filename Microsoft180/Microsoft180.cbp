@@ -51,6 +51,8 @@
 		<Unit filename="offer100issues/issueNo19_reverseList.h" />
 		<Unit filename="offer100issues/issueNo2.h" />
 		<Unit filename="offer100issues/issueNo20_LongestCommonSub.h" />
+		<Unit filename="offer100issues/issueNo25_calculate1times.h" />
+		<Unit filename="offer100issues/issueNo26_FindContinuousSequence.h" />
 		<Unit filename="offer100issues/issueNo26_getSecuenceSumN.h" />
 		<Unit filename="offer100issues/issueNo27_getAllString.h" />
 		<Unit filename="offer100issues/issueNo3.h" />

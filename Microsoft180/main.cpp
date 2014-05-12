@@ -23,9 +23,11 @@
 #include "offer100issues/issueNo18_TwoStackImplementQueue.h"
 #include "offer100issues/issueNo19_reverseList.h"
 #include "offer100issues/issueNo20_LongestCommonSub.h"
+#include "offer100issues/issueNo25_calculate1times.h"
+#include "offer100issues/issueNo26_FindContinuousSequence.h"
 #endif // __USE_OFFER_2_
 
-#define __USE__ISSUE__20
+#define __USE__ISSUE__26
 
 using namespace std;
 
@@ -144,6 +146,11 @@ NO13::testFirstNotRepeatingChar();
 #ifdef __USE__ISSUE__20
     NO20::testLCS();
 #endif
-
+#ifdef __USE__ISSUE__25
+    NO25::testNumberOfOne();
+#endif
+#ifdef __USE__ISSUE__26
+    NO26::testGetSequence();
+#endif
     return 0;
 }
