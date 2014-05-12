@@ -22,7 +22,10 @@
 #include "offer100issues/issueNo17_StringToInt.h"
 #include "offer100issues/issueNo18_TwoStackImplementQueue.h"
 #include "offer100issues/issueNo19_reverseList.h"
+#include "offer100issues/issueNo20_LongestCommonSub.h"
 #endif // __USE_OFFER_2_
+
+#define __USE__ISSUE__20
 
 using namespace std;
 
@@ -134,10 +137,13 @@ NO13::testFirstNotRepeatingChar();
 #if 0 //Issue No.17
     NO17::testParseStringToInt();
 #endif // 1
+#if 0 //Issue No.19
     NO19::testReverseListNode();
-#if 1
+#endif //
 
-#endif // 1
+#ifdef __USE__ISSUE__20
+    NO20::testLCS();
+#endif
 
     return 0;
 }
